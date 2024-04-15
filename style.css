@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -11,6 +12,7 @@ body {
   justify-content: center;
   align-items: center;
   align-content: center;
+  font-family: "Inter", sans-serif;
 }
 #container {
   background-color: hsl(0, 0%, 12%);
@@ -42,17 +44,23 @@ h3 {
 }
 p {
   font-size: 9px;
-  padding: 10px;
+  padding-top: 17px;
+  padding-bottom: 17px;
 }
-h5 {
-  padding: 8px 4px;
+a {
+  text-decoration: none;
+}
+.link {
+  display: block;
+  padding: 8px 2px;
   background-color: hsl(0, 0%, 20%);
   margin-bottom: 10px;
   border-radius: 5px;
   font-size: 8px;
-  font-weight: 400;
-}
-a {
-  text-decoration: none;
+  font-weight: 600;
   color: hsl(0, 0%, 100%);
+}
+.link:hover {
+  background-color: hsl(75, 94%, 57%);
+  color: hsl(0, 0%, 12%);
 }
